@@ -1,0 +1,129 @@
+body, html {
+    background-color: #FF8AB2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+   
+}    
+
+.container {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    
+}
+
+nav {
+ 
+}
+
+main {
+    background-image: url(images/Stay-Retro-12-25-2024.png);
+    background-position: center;
+    width: 1024px;
+    height: 600px;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: 80px;
+/* Countdown Container */
+.countdown-container {
+    text-align: center;
+    margin-top: 10px;
+    color: #fdfcfd; /* White text color */
+    font-family: Arial, sans-serif;
+}
+
+.countdown-container h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* Countdown Display */
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.countdown-item {
+    background-color: #FF8AB2; /* Matches website's pink background color */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-item span {
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+}
+
+.countdown-item p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+}
+
+footer {
+
+}
+
+/* Pop-Up Container */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Pop-Up Content */
+.popup-content {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    background: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+/* Video in the Pop-Up */
+#popup-video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+/* Close Button */
+#close-popup {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FF8AB2;
+    color: #fdfcfd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#close-popup:hover {
+    background-color: #555;
+}
