@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/45630c93-1fe8-4772-8d7e-458a5954b6bc/resourceGroups/adam.acevedo551_rg_2920/providers/Microsoft.Web/sites/scavenger-hunt-ale",
+    "appService.deploySubpath": "Ale's-Adventure"
+}

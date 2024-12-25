@@ -17,14 +17,6 @@ body, html {
     width: 1024px;
 }
 
-header {
-    
-}
-
-nav {
- 
-}
-
 main {
     background-image: url(images/Stay-Retro-12-25-2024.png);
     background-position: center;
@@ -72,10 +64,6 @@ main {
     margin: 0;
     font-size: 1rem;
 }
-
-}
-
-footer {
 
 }
 
